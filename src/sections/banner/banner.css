@@ -1,0 +1,99 @@
+#banner{
+    background-color: #FbF3F0;
+    padding: 293px 0 297px 0;
+    position: relative;
+}
+.banner_content{
+    text-align: center;
+    position: relative;
+}
+.banner_content h1{
+    font-size:64px ;
+    font-weight:700 ;
+    line-height: 130%;
+    font-family: 'Poppins', sans-serif;
+    width: 711px;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.banner_content p{
+    font-size:18px ;
+    font-weight:400 ;
+    line-height: 200%;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 547px;
+    margin: 0 auto;
+    text-transform: capitalize;
+    padding-top: 24px;
+    
+}
+.banner_btn{
+    display: flex;
+    column-gap: 24px;
+    margin-top: 44px;
+    justify-content: center;
+}
+
+
+.shape_1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.shape_2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.shape_3{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.shape_4{
+    position: absolute;
+    left: -110px;
+    top: 0;
+}
+.shape_5{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+
+.shape_7{
+    position: absolute;
+    left:0;
+    bottom:-150px;
+}
+.round_1{
+    position: absolute;
+    top: 110px;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 121.46px;
+    height: 121.48px;
+    border-radius: 50%;
+    border: 2px solid #FFABBA;
+    animation: round_1 3s linear infinite;
+}
+@keyframes round_1 {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+    
+}
+.round_1::after{
+    position: absolute;
+    content:"";
+    left:50%;
+    top:-12.5px;
+    transform: translateX(-50%);
+    width: 25px;
+    height: 25px;
+    background-color:#FFABBA;
+    border-radius: 50%;
+}

@@ -1,0 +1,32 @@
+#company{
+    padding: 120px 0;
+}
+.company_heading{
+    width:850px ;
+    margin:0 auto ;
+    padding-bottom: 60px;
+}
+.company_heading h3{
+    font-size:48px ;
+    font-weight: 600;
+    line-height:140% ;
+    color:#29313D ;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+.company_wrapper{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.company_item{
+    
+    background-color: #FDF9F8;
+    width: 210px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

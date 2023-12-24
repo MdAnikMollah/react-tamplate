@@ -1,0 +1,71 @@
+#experience{
+    padding-top: 120px;
+}
+
+.sub_heading{
+    color:#FF5538 ;
+    font-size:20px ;
+    font-weight:500 ;
+    font-family:'Poppins', sans-serif ;
+    line-height:140% ;
+    text-transform: capitalize;
+}
+.heading{
+    color:#29313D ;
+    font-size:48px ;
+    font-weight:600 ;
+    font-family:'Poppins', sans-serif ;
+    line-height:140% ;
+    text-transform: capitalize;
+    padding-top: 10px;
+    width: 449px;
+}
+.experience_wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.experience_img{
+    width: 45%;
+    height: 520px;
+    
+}
+.experience_content{
+    width: 55%;
+    height: 600px;
+    background-color:#FBF3F0;
+    padding: 100px 185px;
+    position: relative;
+}
+.experience_img_box{
+    position: relative;
+    background-color: yellow;
+    width: 110%;
+    height: 100%;
+    z-index: 555;
+    overflow: hidden;
+}
+.experience_img_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.experience_content h3{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 140%;
+    font-family: 'Poppins', sans-serif;
+    color: #29313D;
+    width: 570px;
+}
+.experience_content p{
+   padding-top: 20px;
+   padding-bottom: 48px;
+   width: 500px;
+    
+}
+.experience_shape{
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+}

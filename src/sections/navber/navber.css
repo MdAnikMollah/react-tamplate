@@ -1,0 +1,52 @@
+nav{
+    padding: 30px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 555;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu ul{
+    display: flex;
+    column-gap: 72px;
+    align-items: center;
+    
+
+}
+.menu ul li a{
+    font-size:18px ;
+    font-weight: 600;
+    line-height:auto ;
+    color: #29313D;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear 0.6s;
+    
+}
+.menu ul li a:hover{
+    color: #FF5538;
+}
+.common_btn{
+    background-color: transparent;
+    border: 1px solid #FF5538;
+    padding: 14px 28px;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 200%;
+    color: #FF5538;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: capitalize;
+    transition: all linear 0.6s;
+    display: inline-block;
+}
+.common_btn:hover{
+    background-color: #FF5538;
+    color: #fff;
+}

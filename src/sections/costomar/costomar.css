@@ -1,0 +1,98 @@
+#costomar{
+    padding: 120px 0;
+    background-color: #FDF9F8;
+}
+.costomar_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.costomar_info{
+    width: 690px;
+    
+}
+.costomar_info .company_heading{
+    width: unset;
+    margin: unset;
+}
+.costomar_info .company_heading h3{
+    text-align: left;
+    padding-top: 20px;
+}
+.costomar_img{
+    width: 500px;
+    height: 557px;
+    border-radius: 30px;
+    margin-right: 70px;
+    overflow: hidden;
+}
+.costomar_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.costomar_main{
+    display: flex;
+    column-gap: 28px;
+    
+}
+.costomar_item{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 20%;
+    overflow: hidden;
+    
+}
+.costomar_details p{
+    font-size:20px ;
+    font-weight:400 ;
+    line-height:180% ;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #29313D;
+    margin-top: 60px;
+}
+.costomar_name h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size:36px ;
+    font-weight:600 ;
+    line-height: 180%;
+    color: #29313D;
+    text-transform: capitalize;
+    
+
+}
+.costomar_name{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 61px;
+}
+.arrow_main{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+.arrow_item{
+    width: 64px;
+    height: 64px;
+    background-color:#FFDDD7;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear 0.6s;
+}
+.arrow_item:hover{
+    background-color: #FF5538;
+    color: #FFDDD7;
+}
+.arrow_item i{
+    font-size: 20px;
+}
+
+.costomar_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
